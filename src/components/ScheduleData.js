@@ -1,15 +1,15 @@
 import React from 'react';
 import { DataGrid } from '@mui/x-data-grid';
-import { ClientRows } from '../../store/Data';
+import { ClientRows } from '../store/TableData';
 
-export default function schedulesTable() {
+export default function scheduleData() {
 
   const columns = [
-    { field: 'Date', headerName: 'Date', width: 150 },
-    { field: 'Time', headerName: 'Time', width: 150 },
+    { field: 'Date', headerName: 'Date', width: 100 },
+    { field: 'Time', headerName: 'Time', width: 100 },
     { field: 'Expert', headerName: 'Expert Name', width: 200 },
     { field: 'Client', headerName: 'Client Name', width: 200 },
-    { field: 'Duration', headerName:'Duration', width: 180 },
+    { field: 'Duration', headerName:'Duration', width: 150 },
   ];
 
   return (
