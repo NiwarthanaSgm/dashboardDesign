@@ -17,8 +17,8 @@ export default function schedulesTable() {
       <DataGrid
         rows={ClientRows}
         columns={columns}
-        pageSize={5}
-        rowsPerPageOptions={[5]}
+        pageSize={10}
+        rowsPerPageOptions={[10]}
         checkboxSelection
       />
     </div>
