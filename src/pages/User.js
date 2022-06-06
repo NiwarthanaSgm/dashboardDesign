@@ -29,7 +29,7 @@ import {
               />
               <div className="userShowTopTitle">
                 <span className="userShowUsername">Anna Becker</span>
-                <span className="userShowUserTitle">Software Engineer</span>
+                <span className="userShowUserTitle">Content Creator</span>
               </div>
             </div>
             <div className="userShowBottom">
