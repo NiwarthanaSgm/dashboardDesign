@@ -49,7 +49,7 @@ export const userData = [
     },
   ];
 
-  export const productData = [
+  export const categoryData = [
     {
       name: "Jan",
       "Sales": 4000,
@@ -157,95 +157,75 @@ export const userData = [
     },
   ];
 
-  export const productRows = [
+  export const categoryRows = [
     {
       id: 1,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Law",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 2,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Teaching",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 3,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Law",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 4,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Business Advising",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 5,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Law",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 6,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Law",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 7,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Web Design",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 8,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Yoga",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 9,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Architecture",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
     {
       id: 10,
-      name: "Apple Airpods",
-      img:
-        "https://images.pexels.com/photos/7156886/pexels-photo-7156886.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500",
-      stock: 123,
+      name: "Phychatrist",
       status: "active",
-      price: "$120.00",
+      subAmount: 10,
+      gigAmount: 100,
     },
   ];

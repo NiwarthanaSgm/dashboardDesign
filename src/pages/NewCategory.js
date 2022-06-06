@@ -1,5 +1,5 @@
 import React from 'react';
-import "./newProduct.css";
+import "../styles/newCategory.css";
 
 export default function NewProduct() {
   return (

@@ -1,13 +1,13 @@
 import React from 'react';
-import "./productList.css";
+import "../styles/categoryList.css";
 import { DataGrid } from "@mui/x-data-grid";
 import { DeleteOutline } from "@mui/icons-material";
-import { productRows } from "./TableData";
+import { categoryRows } from "../store/TableData";
 import { Link } from "react-router-dom";
 import { useState } from "react";
 
 export default function ProductList() {
-  const [data, setData] = useState(productRows);
+  const [data, setData] = useState(categoryRows);
 
   const handleDelete = (id) => {
     setData(data.filter((item) => item.id !== id));
@@ -15,28 +15,20 @@ export default function ProductList() {
 
   const columns = [
     { field: "id", headerName: "ID", width: 90 },
-    {
-      field: "product",
-      headerName: "Product",
-      width: 200,
-      renderCell: (params) => {
-        return (
-          <div className="productListItem">
-            <img className="productListImg" src={params.row.img} alt="" />
-            {params.row.name}
-          </div>
-        );
-      },
-    },
-    { field: "stock", headerName: "Stock", width: 200 },
+    { field: "name", headerName: "Category", width: 200 },
     {
       field: "status",
       headerName: "Status",
       width: 120,
     },
     {
-      field: "price",
-      headerName: "Price",
+      field: "subAmount",
+      headerName: "SubCategories Amount",
+      width: 160,
+    },
+    {
+      field: "gigAmount",
+      headerName: "Gigs amount",
       width: 160,
     },
     {
@@ -60,7 +52,7 @@ export default function ProductList() {
   ];
 
   return (
-    <div className="productList">
+    <div className="categoryList">
       <DataGrid
         rows={data}
         disableSelectionOnClick

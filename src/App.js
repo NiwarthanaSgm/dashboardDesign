@@ -1,14 +1,14 @@
 import Sidebar from "./components/Sidebar";
 import Topbar from "./components/Topbar";
-import "./App.css";
+import "./app.css";
 import Home from "./pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import UserList from "./pages/UserList";
 import User from "./pages/User";
 import NewUser from "./pages/NewUser";
-import ProductList from "./pages/ProductList";
-import Product from "./pages/Product";
-import NewProduct from "./pages/NewProduct";
+import ProductList from "./pages/CategoryList";
+import Product from "./pages/Category";
+import NewProduct from "./pages/NewCategory";
 
 function App() {
   return (
