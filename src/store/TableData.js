@@ -229,3 +229,15 @@ export const userData = [
       gigAmount: 100,
     },
   ];
+
+  export const ClientRows = [
+    { id: 1, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 2, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 3, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 4, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 5, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 6, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 7, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 8, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+    { id: 9, Date:'01-01-2022', Time:'11.00AM GMT', Expert:'Colien Morgon', Client:'Mogana Crews' },
+  ];

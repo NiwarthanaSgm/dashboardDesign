@@ -9,6 +9,7 @@ import NewUser from "./pages/NewUser";
 import CategoryList from "./pages/CategoryList";
 import Category from "./pages/Category";
 import NewCategory from "./pages/NewCategory";
+import Meetings from './components/Meetings';
 
 function App() {
   return (
@@ -37,6 +38,9 @@ function App() {
           </Route>
           <Route path="/newcategory">
             <NewCategory />
+          </Route>
+          <Route path="/meetings">
+            <Meetings/>
           </Route>
         </Switch>
       </div>
