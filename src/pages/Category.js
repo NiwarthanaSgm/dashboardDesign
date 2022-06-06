@@ -10,7 +10,7 @@ export default function Product() {
     <div className="category">
       <div className="categoryTitleContainer">
         <h1 className="categoryTitle">Category</h1>
-        <Link to="/newproduct">
+        <Link to="/newcategory">
           <button className="categoryAddButton">Create</button>
         </Link>
       </div>
