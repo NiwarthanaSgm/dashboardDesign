@@ -1,33 +1,33 @@
-.newProduct {
+.newCategory {
     flex: 4;
   }
   
-  .addProductForm {
+  .addCategoryForm {
     margin-top: 10px;
   }
   
-  .addProductItem {
+  .addCategoryItem {
     width: 250px;
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
   }
   
-  .addProductItem > label {
+  .addCategoryItem > label {
     color: gray;
     font-weight: 600;
     margin-bottom: 10px;
   }
   
-  .addProductItem > input {
+  .addCategoryItem > input {
     padding: 10px;
   }
   
-  .addProductItem > select {
+  .addCategoryItem > select {
     padding: 10px;
   }
   
-  .addProductButton {
+  .addCategoryButton {
     margin-top: 10px;
     padding: 7px 10px;
     border: none;

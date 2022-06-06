@@ -1,31 +1,23 @@
 import React from 'react';
 import "../styles/newCategory.css";
 
-export default function NewProduct() {
+export default function NewCategory() {
   return (
-    <div className="newProduct">
-      <h1 className="addProductTitle">New Product</h1>
-      <form className="addProductForm">
-        <div className="addProductItem">
-          <label>Image</label>
-          <input type="file" id="file" />
-        </div>
-        <div className="addProductItem">
+    <div className="newCategory">
+      <h1 className="addCategoryTitle">New Category</h1>
+      <form className="addCategoryForm">
+        <div className="addCategoryItem">
           <label>Name</label>
-          <input type="text" placeholder="Apple Airpods" />
+          <input type="text" placeholder="Category.." />
         </div>
-        <div className="addProductItem">
-          <label>Stock</label>
-          <input type="text" placeholder="123" />
-        </div>
-        <div className="addProductItem">
+        <div className="addCategoryItem">
           <label>Active</label>
           <select name="active" id="active">
             <option value="yes">Yes</option>
             <option value="no">No</option>
           </select>
         </div>
-        <button className="addProductButton">Create</button>
+        <button className="addCategoryButton">Create</button>
       </form>
     </div>
   );

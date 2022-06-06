@@ -52,15 +52,15 @@ export const userData = [
   export const categoryData = [
     {
       name: "Jan",
-      "Sales": 4000,
+      "Buys": 4000,
     },
     {
       name: "Feb",
-      "Sales": 3000,
+      "Buys": 3000,
     },
     {
       name: "Mar",
-      "Sales": 5000,
+      "Buys": 5000,
     },
   ];
 
@@ -167,7 +167,7 @@ export const userData = [
     },
     {
       id: 2,
-      name: "Teaching",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
@@ -181,7 +181,7 @@ export const userData = [
     },
     {
       id: 4,
-      name: "Business Advising",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
@@ -202,28 +202,28 @@ export const userData = [
     },
     {
       id: 7,
-      name: "Web Design",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
     },
     {
       id: 8,
-      name: "Yoga",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
     },
     {
       id: 9,
-      name: "Architecture",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
     },
     {
       id: 10,
-      name: "Phychatrist",
+      name: "Law",
       status: "active",
       subAmount: 10,
       gigAmount: 100,
